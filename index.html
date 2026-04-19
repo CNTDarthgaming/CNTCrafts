@@ -397,7 +397,7 @@ nav{
 
 <script>
 function tick(){
-  const d=new Date('2025-06-05T00:00:00')-new Date();
+  const d=new Date('2026-06-05T00:00:00')-new Date();
   if(d<=0){['days','hrs','mins'].forEach(i=>document.getElementById(i).textContent='0');return;}
   document.getElementById('days').textContent=Math.floor(d/864e5);
   document.getElementById('hrs').textContent=Math.floor(d%864e5/36e5);
